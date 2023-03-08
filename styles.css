@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	font-family: 'Inter', sans-serif;
+	position: fixed;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #567189;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+header>a{
+	text-decoration: none;
+	color: #000;
+}
+.search{
+	width: 50%;
+  	position: relative;
+  	display: flex;
+}
+
+#search-bar{
+	width: 60%;
+	font-size: large;
+	font-weight: bold;
+  	border:0;
+ 	border-right: none;
+  	padding: 5px;
+  	height: 25px;
+  	border-radius: 5px 0 0 5px;
+  	outline: none;
+  	color: black;
+}
+#search-icon{
+	width: 35px;
+	height: 35px;
+	border: 0;
+	background: black;
+	text-align: center;
+	color: #fff;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	background-image: url(./images/search.png);
+}
+
+footer{
+	font-family: 'Inter', sans-serif;
+	display: flex;
+	justify-content: center;
+	background-color: #567189;
+	align-items: center;
+	color: whitesmoke;
+	font-weight: normal;
+	margin-top: auto;
+	height: 5vh;
+}
+.root{
+	height: 95vh;
+	display: flex;
+	justify-content: center;
+		
+}
+.options{
+	background-color: #BAD7E9;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.cards{
+	background-color: #ECF2FF;
+	width: 75%;
+}
+
+button{
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	background-color: #FAAB78;
+	color: black;
+	width:150px;
+	height:90px;
+	border: 0;
+	border-radius: 20px;
+	border: 1px black solid;
+	cursor: pointer;
+}
+
+button:hover{
+	height: 100px;
+	background-color: white;
+}
+
