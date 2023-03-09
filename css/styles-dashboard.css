@@ -46,7 +46,7 @@ header>a{
 	color: #fff;
 	border-radius: 0 5px 5px 0;
 	cursor: pointer;
-	background-image: url(./images/search.png);
+	background-image: url(../images/search.png);
 }
 
 footer{
@@ -61,12 +61,13 @@ footer{
 	height: 5vh;
 }
 .root{
-	height: 95vh;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 		
 }
 .options{
+	margin-top: 10vh;
 	background-color: #BAD7E9;
 	width: 25%;
 	display: flex;
@@ -86,7 +87,7 @@ button{
 	background-color: #FAAB78;
 	color: black;
 	width:170px;
-	height:100px;
+	height:90px;
 	border: 0;
 	border-radius: 20px;
 	border: 1px black solid;
@@ -94,7 +95,7 @@ button{
 }
 
 button:hover{
-	height: 120px;
+	height: 100px;
 	background-color: white;
 }
 
